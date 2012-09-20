@@ -1,0 +1,11 @@
+﻿    </div>
+    </div>
+    <div id="footer">
+        <div class="ft_admin">
+            <a href="{micajahurl}">Admin Login</a>
+        </div>
+        <div class="ft_text">Copyright &copy; 2002 - {currentyear} <a target="_blank" href="http://helpdesk.bigwebapps.com/">bigWebApps Inc</a>. All rights reserved. &nbsp;|&nbsp; Engineered by <a target="_blank" href="http://www.micajah.com">Micajah</a>.</div>
+    </div>
+{trackingcode}
+</body>
+</html>

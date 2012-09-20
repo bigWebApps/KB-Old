@@ -1,0 +1,22 @@
+﻿    <div id="question">
+        <form action="{commentaction}" method="post">
+        <table>
+            <tr><td>Name</td><td>Email</td></tr>
+            <tr><td><input class="text" type="text" name="Name" value="{username}" /></td><td><input class="text" type="text" name="Email" value="{useremail}" /></td></tr>
+            <tr><td colspan="2"><textarea cols="25" rows="6" name="Comment" maxlength="1000"></textarea></td></tr>
+            <tr style="display:none"><td colspan="2"><input type="text" name="hpot" value="micajah@@kb" /></td></tr>
+            <tr><td colspan="2"><input class="submit" type="submit" value="Submit Your Question" /></td></tr>
+        </table>
+        </form>
+    </div>
+    </div>
+    </div>
+    <div id="footer">
+        <div class="ft_admin">
+            <a href="{homeurl}">Home</a> &nbsp; {editurl}
+        </div>
+        <div class="ft_text">Copyright &copy; 2002 - {currentyear} <a target="_blank" href="http://helpdesk.bigwebapps.com/">bigWebApps Inc</a>. All rights reserved. &nbsp;|&nbsp; Engineered by <a target="_blank" href="http://www.micajah.com">Micajah</a>.</div>
+    </div>
+{trackingcode}    
+</body>
+</html>

@@ -1,0 +1,19 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="BWA.Knowledgebase.MasterPage"
+    CodeFile="MasterPage.master.cs" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title id="title1" runat="server"></title>
+    <link href="StyleSheet.css" rel="Stylesheet" rev="Stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="SMgr" runat="server">
+    </asp:ScriptManager>
+    <asp:ContentPlaceHolder ID="PageBody" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+    <asp:Literal ID="LiteralTrackingCode" runat="server" meta:resourcekey="LiteralTrackingCodeResource1"></asp:Literal>
+</body>
+</html>

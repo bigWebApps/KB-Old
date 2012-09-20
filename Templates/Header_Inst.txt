@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title>{title}</title>
+    <meta name="description" content="{metadescription}" /> 
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
+    <link rel="Stylesheet" href="clean_inst.css" type="text/css" />
+    <link rel="canonical" href="{canonical}" />
+</head>
+<body>
+    <div id="nonFooter">
+    <div id="header">
+        <div id="headertitle">
+            <a title="{orgInstName}" href="{orgUrl}" target="_blank">{orgInstName}</a>
+        </div>
+        <div id="search" style="white-space: nowrap">
+            <form action="{searchaction}" method="post">
+                <input type="text" name="search" size="40" />
+                <input type="submit" value="Search" />
+            </form>
+        </div>
+    </div>
+    <div id="pageInfo">
+    
